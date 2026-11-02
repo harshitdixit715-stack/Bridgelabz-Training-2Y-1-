@@ -13,7 +13,7 @@ public class BasicLinked {
         System.out.print(b.data+" -> ");
         System.out.print(c.data+" -> ");
         System.out.print(d.data+" -> ");
-        System.out.print(e.data+"  ");
+        System.out.print(e.data+" -> ");
 
         a.next = b;
         b.next = c;
@@ -42,5 +42,4 @@ public class BasicLinked {
         }
         System.out.println("null");
     }
-
 }
