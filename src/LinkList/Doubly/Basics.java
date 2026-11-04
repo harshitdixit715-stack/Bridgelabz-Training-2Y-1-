@@ -38,7 +38,5 @@ public class Basics {
         d.prev = c;
         display();
 
-
-
     }
 }
