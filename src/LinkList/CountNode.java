@@ -46,6 +46,5 @@ public class CountNode {
         inserAtEnd(50);
         display();
         System.out.println("\nTotal Nodes: " + countNode());
-
     }
 }
