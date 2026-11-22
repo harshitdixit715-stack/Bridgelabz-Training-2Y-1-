@@ -18,9 +18,7 @@ public class StudentManagement {
     }
 
     static Node head = null;
-
-    // 1. Add student at beginning
-    static void addAtBeginning(int roll, String name,
+    static void addAtBeginning(int roll, String name,// 1. Add student at beginning
                                int age, String grade) {
 
         Node newNode = new Node(roll, name, age, grade);
@@ -30,9 +28,7 @@ public class StudentManagement {
 
         System.out.println("Student added at beginning.");
     }
-
-    // 2. Add student at end
-    static void addAtEnd(int roll, String name,
+    static void addAtEnd(int roll, String name,// 2. Add student at end
                          int age, String grade) {
 
         Node newNode = new Node(roll, name, age, grade);
@@ -52,9 +48,7 @@ public class StudentManagement {
 
         System.out.println("Student added at end.");
     }
-
-    // 3. Add student at specific position
-    static void addAtPosition(int roll, String name,
+    static void addAtPosition(int roll, String name,// Add student at specific position
                               int age, String grade, int pos) {
 
         if (pos < 1) {
